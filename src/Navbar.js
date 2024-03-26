@@ -45,7 +45,7 @@ const NavBar = () => {
                 <NavDropdown title="B2C" id="basic-nav-dropdown-2">
                   <NavDropdown.Item
                     onMouseEnter={() =>
-                      handleMouseEnter('Online', 'Description for Online')
+                      handleMouseEnter('Online', 'Refers to activities, interactions, or services conducted over the internet, typically through websites, applications, or digital platforms.')
                     }
                     onMouseLeave={handleMouseLeave}
                     href="#"
@@ -54,7 +54,7 @@ const NavBar = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     onMouseEnter={() =>
-                      handleMouseEnter('Interview', 'Description for Interview')
+                      handleMouseEnter('Interview', 'A structured conversation between two or more people, often conducted to gather information, assess qualifications, or explore opinions on a specific topic or for a particular purpose.')
                     }
                     onMouseLeave={handleMouseLeave}
                     href="#"
@@ -63,7 +63,7 @@ const NavBar = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     onMouseEnter={() =>
-                      handleMouseEnter('Public Data', 'Description for Public Data')
+                      handleMouseEnter('Public Data', ' Information that is freely available and accessible to the general public. This data can include government records, research findings, statistical reports, and other openly shared information.')
                     }
                     onMouseLeave={handleMouseLeave}
                     href="#"
@@ -72,7 +72,7 @@ const NavBar = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     onMouseEnter={() =>
-                      handleMouseEnter('Health', 'Description for Health')
+                      handleMouseEnter('Health', ' The state of physical, mental, and social well-being, encompassing aspects such as disease prevention, treatment, lifestyle choices, and overall quality of life.')
                     }
                     onMouseLeave={handleMouseLeave}
                     href="#"
@@ -95,7 +95,7 @@ const NavBar = () => {
               <NavDropdown title="Planning" id="basic-nav-dropdown-2">
                 <NavDropdown.Item
                   onMouseEnter={() =>
-                    handleMouseEnter('PRD', 'Description for PRD')
+                    handleMouseEnter('PRD', 'A product requirements document (PRD) is an artifact used in the product development process to communicate what capabilities must be included in a product release to the development and testing teams. This document is typically used more in waterfall environments where product definition, design, and delivery happen sequentially, but may be used in an agile setting as well.')
                   }
                   onMouseLeave={handleMouseLeave}
                   href="#"
@@ -104,7 +104,7 @@ const NavBar = () => {
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onMouseEnter={() =>
-                    handleMouseEnter('Specs', 'Description for Specs')
+                    handleMouseEnter('Specs', 'Specs, or specifications, are a set of requirements that outline what goes into the production of a product.')
                   }
                   onMouseLeave={handleMouseLeave}
                   href="#"
@@ -116,7 +116,7 @@ const NavBar = () => {
               <NavDropdown title="Designing" id="basic-nav-dropdown-3">
                 <NavDropdown.Item
                   onMouseEnter={() =>
-                    handleMouseEnter('Hardware', 'Description for Hardware')
+                    handleMouseEnter('Hardware', 'Hardware is tangible, operates independently of software, and is the foundation for all computing tasks. Hardware can be susceptible to wear and tear, and may require replacement over time.')
                   }
                   onMouseLeave={handleMouseLeave}
                   href="#"
@@ -125,7 +125,7 @@ const NavBar = () => {
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onMouseEnter={() =>
-                    handleMouseEnter('Software', 'Description for Software')
+                    handleMouseEnter('Software', 'Software is a collection of instructions, data, or computer programs that run machines and perform activities. The operating system (OS) is a type of system software that manages a computers hardware, software, processes, and memory. It also allows users to communicate with the computer without knowing how to speak the computers language.')
                   }
                   onMouseLeave={handleMouseLeave}
                   href="#"
@@ -137,7 +137,7 @@ const NavBar = () => {
               <NavDropdown title="Manufacturing" id="basic-nav-dropdown-4">
                 <NavDropdown.Item
                   onMouseEnter={() =>
-                    handleMouseEnter('Material', 'Description for Material')
+                    handleMouseEnter('Material', 'Materials are the inputs or resources used in the production process to generate finished goods and services. They can be classified on the basis of their physical and chemical properties, or on their geological origin or biological function.')
                   }
                   onMouseLeave={handleMouseLeave}
                   href="#"
@@ -146,7 +146,7 @@ const NavBar = () => {
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onMouseEnter={() =>
-                    handleMouseEnter('Production', 'Description for Production')
+                    handleMouseEnter('Production', 'Production is the process of creating a good or service. It involves the use of materials, labor, and capital to transform raw materials into finished products. Production can be divided into two main categories: primary production and secondary production.')
                   }
                   onMouseLeave={handleMouseLeave}
                   href="#"
@@ -158,7 +158,7 @@ const NavBar = () => {
               <NavDropdown title="Sales/Marketing" id="basic-nav-dropdown-5">
                 <NavDropdown.Item
                   onMouseEnter={() =>
-                    handleMouseEnter('Online', 'Description for Online')
+                    handleMouseEnter('Online', 'You buy directly from the carmaker. Online car dealerships, or online car dealers, allow customers to browse vehicles, get financing, and complete their purchases online. They often offer a wide range of vehicles, new and used, at competitive prices.')
                   }
                   onMouseLeave={handleMouseLeave}
                   href="#"
@@ -167,7 +167,7 @@ const NavBar = () => {
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   onMouseEnter={() =>
-                    handleMouseEnter('Dealership', 'Description for Dealership')
+                    handleMouseEnter('Dealership', 'You buy from a third party, like a dealership, which may have partnered with banks to help customers with financing. Dealerships usually sell one brand of vehicle, so if you are looking for a Nissan but only have a Ford dealer nearby, shopping online may be better.')
                   }
                   onMouseLeave={handleMouseLeave}
                   href="#"
