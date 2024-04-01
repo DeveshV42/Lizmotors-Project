@@ -1,4 +1,4 @@
-# 1. Install dependencies 1
+# 1. Install dependencies 
 npm install
 
 npm install react-bootstrap bootstrap
